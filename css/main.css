@@ -1,0 +1,187 @@
+
+#navbar-override {
+  background-color: #000;
+  border-color: #080808;
+}
+
+.navbar {
+  background-color: #000;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  margin-left: 5px;
+}
+
+#brand-image {
+  height: 55px;
+}
+
+.navbar-header {
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+}
+
+.navbar-nav li a {
+  line-height: 90px;
+  height: 80px;
+  padding-top: 0;
+}
+
+#nav-btn {
+  top: 20px;
+}
+
+@media (max-width: 740px) {
+  .navbar-nav li a {
+  line-height: 45px;
+  height: 45px;
+  }
+}
+
+.dropdown-menu li a {
+  line-height: 35px;
+  height: 35px;
+}
+
+.nav-title,
+.nav-page,
+.edit-title {
+    
+}
+
+/*Dropdown menu bootstrap override*/
+.dropdown-toggle {
+  background-color: transparent;
+  border-color: #000;
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.dropdown-menu{
+  background-color: black;
+}
+
+.dropdown-menu>li:hover{
+  background-color:#929399;
+}
+
+.dropdown-menu>li>a{
+  color: #929399;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color:#000;
+  color: white;
+}
+
+span {
+ display: inline-block;
+ width: 0;
+ height: 200em;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+}
+    
+/*Slides*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+.border-between > [class*='col-']:before {
+   background: black;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 1px;
+   top: 0;
+}
+
+.border-between > [class*='col-']:first-child:before {
+   display: none;
+}
+
+
+.menu-item {
+  float: left;
+  font-weight:bold;
+}
+
+.item-price {
+  float: right;
+  font-weight: bold;
+}
+
+.side {
+  padding: 15px;
+}
+
+/*Media Queries for bootstrap*/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .side {
+    padding: 100% 0;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .title {
+    display: none;
+  }
+  .sand {
+    padding-top: 15px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .sand {
+    padding-top: 15px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .sand {
+    padding-top: 15px;
+  }
+}
