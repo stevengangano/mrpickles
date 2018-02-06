@@ -133,55 +133,84 @@ span {
    display: none;
 }
 
+.types {
+  color: #715445;
+  font-weight: bold;
+}
 
 .menu-item {
+  color: #715445;
   float: left;
   font-weight:bold;
 }
 
 .item-price {
+  color: #085A39;
   float: right;
   font-weight: bold;
 }
 
-.side {
+.menu-desc {
+  color: #715445;
+}
+.sidebar {
   padding: 15px;
 }
 
+.title {
+  visibility: hidden;
+}
+
+.sand2,
+.title2 {
+  display: none;
+}
+
+
+@media (max-width: 405px) {
+  .cap {
+    font-size: 13px;
+  }
+  .mac {
+    font-size: 13px;
+  }
+}
 /*Media Queries for bootstrap*/
 
-/* Large desktops and laptops */
-@media (min-width: 1200px) {
-  .side {
-    padding: 100% 0;
-  }
-}
-
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
-  .title {
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+  .title,
+  .bar {
     display: none;
   }
-  .sand {
+  .mrpickles {
+    display: none;
+  }
+ .dropdown-menu,
+ .dropdown {
+  float: right;
+ }
+}
+@media (min-width: 767px) {
+  .sidebar {
     padding-top: 15px;
+  }
+  .links {
+    position: relative;
+    top: 20px;
   }
 }
 
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-  .sand {
-    padding-top: 15px;
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .sidebar {
+    padding-top: 35px;
   }
 }
 
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-  .sand {
-    padding-top: 15px;
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+      .sidebar {
+    padding-top: 50px;
   }
 }
