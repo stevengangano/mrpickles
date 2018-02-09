@@ -166,6 +166,11 @@ span {
   display: none;
 }
 
+.social-img {
+  height: 35px;
+  display: inline;
+}
+
 
 @media (max-width: 405px) {
   .cap {
@@ -190,7 +195,15 @@ span {
  .dropdown {
   float: right;
  }
+ .choices {
+    padding: 0px 25px 0px 25px;
+  }
+ .social-img {
+  height: 50px;
+  padding: 3px 110px;
+ }
 }
+
 @media (min-width: 767px) {
   .sidebar {
     padding-top: 15px;
@@ -199,12 +212,22 @@ span {
     position: relative;
     top: 20px;
   }
+  .choices {
+    padding-top: 25px;
+  }
+  .social-img {
+    height: 37px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .sidebar {
     padding-top: 35px;
+  }
+  .social-img {
+  height: 60px;
+  padding: 10px 25px;
   }
 }
 
