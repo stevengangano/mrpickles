@@ -1,4 +1,11 @@
 
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom, green 0%, #50AE54 25%);
+}
+
+
 #navbar-override {
   background-color: #000;
   border-color: #080808;
@@ -218,6 +225,9 @@ span {
   .social-img {
     height: 37px;
   }
+  .maxine {
+    display: none;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -228,6 +238,9 @@ span {
   .social-img {
   height: 60px;
   padding: 10px 25px;
+  }
+  .maxine {
+    visibility: : hidden;
   }
 }
 
