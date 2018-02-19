@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 
 body {
@@ -5,6 +7,42 @@ body {
   background: linear-gradient(to bottom, green 0%, #50AE54 25%);
 }
 
+.carousel-caption .caption {
+  color: pink;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.font-side {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.fax {
+  background: red;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+  padding: 0;
+  line-height: 50px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+.font-side {
+  font-family: 'Abril Fatface', cursive;
+}
+
+/*overrides carousel indicator colors*/
+.bootstrap-overrides.carousel-indicators .active {
+  background-color: #29902E;
+}
+/*.bootstrap-overrides.carousel-indicators li {
+      border: 1px solid black;
+}*/
 
 #navbar-override {
   background-color: #000;
@@ -158,9 +196,20 @@ span {
 }
 
 .menu-desc {
+  text-align: left;
+  margin: 0 0 -20px -15px; 
+  padding: 0;
+  color: #715445;
+}
+
+.menu-desc-deli {
+  text-align: left;
+  margin: 0 0 0 -15px; 
   color: #715445;
 }
 .sidebar {
+  position: relative;
+  bottom: 15px;
   padding: 15px;
 }
 
@@ -178,6 +227,11 @@ span {
   display: inline;
 }
 
+.tuna {
+  color: #705446; 
+  float: left; 
+  display: none;
+}
 
 @media (max-width: 405px) {
   .cap {
@@ -191,24 +245,39 @@ span {
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 767px) {
+    .title,
+    .bar {
+      display: none;
+    }
+    .mrpickles {
+      display: none;
+    }
+   .dropdown-menu,
+   .dropdown {
+    float: right;
+   }
+   .choices {
+      padding: 0px 25px 0px 25px;
+    }
+   .social-img {
+    height: 50px;
+    padding: 3px 110px;
+   }
+   .tuna {
+    color: #705446; 
+    float: left; 
+    display: none;
+  }
+  .tuna-break {
+    display: none;
+  }
+  .bread {
+    padding-top: 15px;
+  }
   .title,
   .bar {
     display: none;
   }
-  .mrpickles {
-    display: none;
-  }
- .dropdown-menu,
- .dropdown {
-  float: right;
- }
- .choices {
-    padding: 0px 25px 0px 25px;
-  }
- .social-img {
-  height: 50px;
-  padding: 3px 110px;
- }
 }
 
 @media (min-width: 767px) {
@@ -219,14 +288,15 @@ span {
     position: relative;
     top: 20px;
   }
-  .choices {
-    padding-top: 25px;
-  }
   .social-img {
     height: 37px;
   }
   .maxine {
     display: none;
+  }
+  .bread,
+  .extras {
+    padding-top: 25px;
   }
 }
 
@@ -237,7 +307,7 @@ span {
   }
   .social-img {
   height: 60px;
-  padding: 10px 25px;
+  padding: 5px 25px;
   }
   .maxine {
     visibility: : hidden;
@@ -246,7 +316,10 @@ span {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-      .sidebar {
+    .sidebar {
     padding-top: 50px;
+  }
+  div.mainDiv.row.text-center {
+    margin-top: 25px;
   }
 }

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mr. Pickles</title>
-	<meta charset="utf-8">
-	  <!-- Latest compiled and minified CSS -->
+  <title>Mr. Pickles</title>
+  <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <!-- Optional theme -->
@@ -31,16 +31,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>         
       </button>
-      <!-- <a class="nav-title navbar-brand" href="#">A-One's Photography</a> -->
       <a href="#" class="navbar-brand">
         <img id="brand-image" src="http://www.mrpickles.com/images-template/mrpickles-logo.png">
       </a>
     </div>
     <div class="collapse navbar-collapse navbar-right text-right" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="nav-page"><a href="#">About</a></li>
-        <li class="nav-page"><a href="#">Menu</a></li>
-        <li class="nav-page"><a href="#contact">Contact</a></li>
+        <li class="nav-page font-side"><a style="color: green;" href="#specialty">Specialty Sandwiches</a></li>
+        <li class="nav-page font-side"><a style="color: green;" href="#deli">Deli Sandwiches</a></li>
+        <li class="nav-page font-side"><a style="color: green;" href="#salads">Salads</a></li>
+        <li class="nav-page font-side"><a style="color: green;" href="#beverages">Beverages</a></li>
+        <li class="nav-page font-side"><a style="color: green;" href="#contact">Contact</a></li>
   
        
     </div>
@@ -63,7 +64,7 @@
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  <ol class="carousel-indicators">
+  <ol id="" class="bootstrap-overrides carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -72,26 +73,35 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="https://media.istockphoto.com/photos/turkey-sandwich-picture-id157431311?s=2048x2048" alt="Los Angeles">
+      <img src="img/mrpickles.png">
+      <div class="carousel-caption">
+        <h2 style="font-family: 'Abril Fatface', cursive;"> Mr. Pickles Sandwich Shop </h2>
+      </div>
     </div>
 
     <div class="item">
-      <img src="https://media.istockphoto.com/photos/turkey-sandwich-picture-id157431311?s=2048x2048" alt="Chicago">
+      <img src="img/carousel-sandwich.jpg">
+       <div class="carousel-caption" style="">
+        <h2 style="font-family: 'Abril Fatface', cursive;"> Best Sandwich in San Bruno </h2>
+      </div>
     </div>
 
     <div class="item">
-      <img src="https://media.istockphoto.com/photos/turkey-sandwich-picture-id157431311?s=2048x2048" alt="New York">
+      <img src="img/another-sandwich.jpg" alt="New York">
+       <div class="carousel-caption">
+        <h2 style="font-family: 'Abril Fatface', cursive;"> Serving hot & cold specialty sandwiches & salads </h2>
+      </div>
     </div>
   </div>
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-<!--     <span class="glyphicon glyphicon-chevron-left"></span>
- -->    <span class="sr-only"></span>
+    <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+    <span class="sr-only"></span>
   </a>
   <a class="right carousel-control" href="#myCarousel" data-slide="next">
 <!--     <span class="glyphicon glyphicon-chevron-right"></span>
- -->    <span class="sr-only"></span>
+  -->   <span class="sr-only"></span>
   </a>
 </div>
 
@@ -103,16 +113,16 @@
       <img class="mrpickles img-responsive" src="https://res.cloudinary.com/grubhub/image/upload/w_1200,h_800,f_auto,fl_lossy,q_80,c_fit/w7ewn6esqlljpxlusljd">
     <div>  
 
-       <p style="text-decoration: underline; margin-top: 5px; "><strong>Address:</strong></p>
-       <p style="font-weight: 500;">428 W. San Bruno Ave</p>
-       <p style="position: relative; bottom: 12px;font-weight: 500;">San Bruno, CA 94066</p>
+       <p class="font-bold" style="text-decoration: underline; margin-top: 5px; "><strong>Address:</strong></p>
+       <p class="font-side" style="font-weight: 500;">428 W. San Bruno Ave</p>
+       <p class="font-side" style="position: relative; bottom: 12px;font-weight: 500;">San Bruno, CA 94066</p>
 
   
-     <p style="position: relative; bottom: 12px;text-decoration: underline; "><strong position: relative; bottom: 12px;> Phone: </strong></p>
-     <p style="position: relative; bottom: 12px; position: relative; bottom: 12px;font-weight: 500;"> (650) 615-9985 </p>
+     <p class="font-bold" style="position: relative; bottom: 12px;text-decoration: underline; "><strong position: relative; bottom: 12px;> Phone: </strong></p>
+     <p  class="font-side" style="position: relative; bottom: 12px; position: relative; bottom: 12px;font-weight: 500;"> (650) 615-9985 </p>
     
-       <p style="position: relative; bottom: 12px;text-decoration: underline; "> <strong> Store Hours: </strong> </p>
-       <p style="position: relative; bottom: 12px;font-weight: 500;"> 9:30am - 5:00pm </p>
+       <p class="font-bold"style="position: relative; bottom: 12px;text-decoration: underline; "> <strong> Store Hours: </strong> </p>
+       <p class="font-side" style="position: relative; bottom: 12px;font-weight: 500;"> 9:30am - 5:00pm </p>
   </div>
 
 <div style="position: relative; bottom: 12px;">
@@ -122,6 +132,11 @@
   <a class="social" target="_blank" href="https://www.doordash.com/store/mr-pickle-s-sandwich-shop-san-bruno-49356/?utm_campaign=gpa"><img class="img-responsive social-img" src="img/doordash.png"></a>
     
   <a class="social" target="_blank" href="https://www.seamless.com/menu/mr-pickles-sandwich-shop-428-w-san-bruno-ave-san-bruno/333075?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"><img class="img-responsive social-img" src="img/seamless.png"></a>
+
+<a style="text-decoration: none;" class="social" target="_blank" href="img/orderform.pdf">
+  <div class="fax"> Fax your Order </div> 
+</a>
+
 </div> 
 
   
@@ -138,89 +153,75 @@
      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="font-weight: bold;"> <a href="http://www.mrpickles.com/gift-cards/" target="_blank"> GIFT CARD </a> </div>
 </div> -->
 
-<br>
-
-
-
-<div class="row">
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 choices" style="text-align: center;">
-
-
-       <p style="font-size: 15px; font-weight: 500;"> <strong style="color: #715445;"> Bread: </strong> Sourdough, Dutch Crunch, Sweet Roll, Wheat Roll, Sliced Wheat, Rye </p>
-
-       <p style="font-size: 15px; font-weight: 500;"> <strong style="color: #715445;"> Cheese: </strong> Provolone, Cheddar, Swiss, Monterey Jack, Pepper Jack, American, Cream Cheese </p>
-
-       <p style="font-size: 15px; font-weight: 500;"> <strong style="color: #715445;"> Extras: </strong> Cheese, Bacon, Avocado, Cranberry Sauce, Meat, Sauce & Dressing </p> 
-
-       <p style="font-size: 15px; font-weight: 500;"> <strong style="color: #715445;"> Everything includes: </strong> Mustard, Mayo, Garlic Sauce, Pickles, Tomato, Onions, Lettuce, Pepperoncinis </p>
-    </div>
 </div>
 
-<div class="row text-center" style="background-color: white;">   
+<div class="mainDiv row text-center" style="background-color: white;">   
       
-<!--       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-        <div class="sidebar" style="background-color: gray;">
-          
-        <div>  
-           <p style="text-decoration: underline; "><strong>Address:</strong></p>
-           <p>428 W. San Bruno Ave</p>
-           <p>San Bruno, CA 94066</p>
+      <div class="row" style="padding: 0 10px;">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+           <p class="bread" style="font-size: 15px; font-weight: 500; text-decoration: underline;"> <strong style="color: #715445;"> Choice of Bread: </strong></p>
+           <p class="font"> &#9900 Dutch Crunch &#9900 Sweet Roll &#9900 Wheat Roll &#9900 Wheat &#9900 Rye &#9900 Sliced Sourdough &#9900 White
+           </p> 
+
+           <p style="font-size: 15px; font-weight: 500; text-decoration: underline;"> <strong style="color: #715445;"> Cheese: </strong> </p>
+           <p class="font"> &#9900 Provolone &#9900 Cheddar &#9900 Swiss &#9900 Monterey Jack &#9900 Pepper Jack &#9900 American </p>  
         </div>
 
-        <div>
-         <p style="text-decoration: underline; "><strong> Phone: </strong></p>
-         <p> (650) 615-9985 </p>
-        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-        <div>
-         <p style="text-decoration: underline; "> <strong> Store Hours: </strong> </p>
-         <p> 9:30am - 5:00pm </p>
-        </div>
+           <p class="extras" style="font-size: 15px; font-weight: 500; text-decoration: underline;"> <strong style="color: #715445;"> Extras: </strong> </p>
+           <p class="font"> &#9900 Cheese ($0.50) &#9900 Bacon ($0.99) &#9900 Avocado ($0.99) &#9900 Cranberry Sauce ($0.75) &#9900 Meat ($2.50) &#9900 Meat ($2.50) </p> 
+
+           <p style="font-size: 15px; font-weight: 500; text-decoration: underline;"> <strong style="color: #715445;"> Everything includes: </strong> </p>
+           <p class="font"> &#9900 Mayo &#9900 Mustard &#9900 Pesto &#9900 Garlic Spread &#9900 Pickles &#9900 Tomato &#9900 Onions &#9900 Lettuce &#9900 Pepperoncini </p>
 
         </div>
-       </div> -->
+      </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style=""> 
           <div class="col-lg-12" style="background-color: white;">
-              <div><h2 id="specialty" class="sand" style="color: #0E6845; text-align: left; padding-top: 15px;"> Specialty Sandwiches </h2></div>
-              <hr style="border-top: 5px solid black;">
+              <div>
+                <h2 id="specialty" class="sand" style="color: #0E6845; text-align: left; padding-top: 15px;"> Specialty Sandwiches </h2>
+              </div>
+              <hr style="border-bottom: 5px solid black;">
 
 
                <!-- row 1 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="0" > <img src="img/sandwich.jpg"></a>
-                </div>
+                </div> -->
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Tom Tom </h5>
+                    <h5 class="menu-item"> 49er </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
                   </div>  
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> Turkey, Bacon, Swiss </p>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p class="menu-desc text-left"> Meatballs, Pepper Jack Cheese & Marinara Sauce </p>
               </div>
 
-              <hr style="border-top: 1px solid black">
+              <hr style="border-top: 1px solid black;">
 
               <!-- end row 1 -->
 
                <!-- row 2 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="1" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> S.B.P.D </h5>
+                    <h5 class="menu-item"> Vegi </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="item-price">$8.49</h5>
+                    <h5 class="item-price">$7.49</h5>
                   </div>  
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Chicken breast with BBQ sauce and melted cheddar cheese </p>
+                <p class="menu-desc text-left"> Choice of Cheese, Sprouts, Cucumber & Pesto Sauce </p>
               </div>
               <!-- end row 2 -->
 
@@ -228,11 +229,11 @@
 
                <!-- row 3 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="2" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> The Italian </h5>
+                    <h5 class="menu-item"> Italian </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
@@ -240,7 +241,7 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Ham, Salami, Pastrami, Mortadella, provolone cheese, Italian Dressing </p>
+                <p class="menu-desc text-left"> Salami, Ham, Mortadella, Provolone Cheese, Italian Dressing </p>
               </div>
               <!-- end row 3 -->
 
@@ -248,11 +249,11 @@
 
                <!-- row 4 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+ <!--                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="3" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> B.L.T </h5>
+                    <h5 class="menu-item"> Tom-Tom </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
@@ -260,7 +261,7 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Triple decker of bacon, lettuce, and tomatoes </p>
+                <p class="menu-desc text-left"> Turkey, Bacon & Swiss </p>
               </div>
               <!-- end row 4 -->
 
@@ -268,11 +269,11 @@
 
                <!-- row 5 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="4" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Dog House </h5>
+                    <h5 class="menu-item"> Maxine </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
@@ -280,7 +281,7 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Hot Pastrami, Bacon, Swiss </p>
+                <p class="menu-desc text-left"> Hot Pastrami & Swiss </p>
               </div>
               <!-- end row 5 -->
 
@@ -288,19 +289,19 @@
 
                <!-- row 6 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="5" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Maxine </h5>
+                    <h5 class="menu-item"> House Combo </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="item-price">$7.99</h5>
+                    <h5 class="item-price">$8.49</h5>
                   </div>  
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Hot Pastrami, Swiss Cheese </p>
+                <p class="menu-desc text-left"> Turkey, Salami, Ham & American Cheese </p>
               </div>
               <!-- end row 6 -->
 
@@ -317,30 +318,9 @@
 
                <!-- row 1 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="6" > <img src="img/sandwich.jpg"></a>
-                </div>              
-                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Porky Pig </h5>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="item-price">$8.49</h5>
-                  </div>  
-              </div> 
-
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> Ham, Bacon, and american cheese </p>
-            
-              </div>
-              <!-- end row 1 -->
-
-              <hr style="border-top: 1px solid black">
-
-               <!-- row 2 -->
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="7" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Bugs Bunny </h5>
                   </div>
@@ -350,7 +330,28 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Cream cheese, sprouts, cucumber, on a wheat roll </p>
+                <p class="menu-desc text-left"> Cream Cheese, Sprouts, Cucumbers on a Wheat Roll </p>
+            
+              </div>
+              <!-- end row 1 -->
+
+              <hr style="border-top: 1px solid black">
+
+               <!-- row 2 -->
+              <div class="row">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="7" > <img src="img/sandwich.jpg"></a>
+                </div> -->              
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="menu-item"> Porky Pig </h5>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="item-price">$8.49</h5>
+                  </div>  
+              </div> 
+
+              <div class="col-lg-12">
+                <p class="menu-desc text-left"> Ham, Bacon and American Cheese on Sourdough </p>
                
               </div>
               <!-- end row 2 -->
@@ -359,9 +360,9 @@
 
                <!-- row 3 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="8" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Ray Ray </h5>
                   </div>
@@ -371,7 +372,7 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Salami and Cheddar </p>
+                <p class="menu-desc text-left"> Salami and Cheddar Cheese</p>
                 
               </div>
               <!-- end row 3 -->
@@ -380,9 +381,9 @@
 
                <!-- row 4 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="9" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Junior (J.R.) </h5>
                   </div>
@@ -392,7 +393,7 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Hot roast beef with BBQ sauce<!--  and melted cheddar cheese --> </p>
+                <p class="menu-desc text-left"> Hot roast beef with BBQ sauce on melted cheddar </p>
                 
               </div>
               <!-- end row 4 -->
@@ -401,9 +402,9 @@
 
                <!-- row 5 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="10" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Lulu </h5>
                   </div>
@@ -422,11 +423,11 @@
 
                <!-- row 6 -->
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="11" > <img src="img/sandwich.jpg"></a>
-                </div>              
+                </div> -->              
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Serra Sandwich</h5>
+                    <h5 class="menu-item"> Serra </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$9.49</h5>
@@ -476,49 +477,9 @@
 
                <!-- row 1 -->
               <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="12" > <img src="img/sandwich.jpg"></a>
-                 </div>
-                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Vegetable </h5>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="item-price">$7.49</h5>
-                  </div>  
-              </div> 
-
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> Choice of cheese, sprouts, cucumber and pesto sauce </p>
-              </div>
-              <!-- end row 1 -->
-
-              <hr style="border-top: 1px solid black">
-
-               <!-- row 2 -->
-              <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="13" > <img src="img/sandwich.jpg"></a>
-                 </div>             
-                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 49er </h5>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="item-price">$8.49</h5>
-                  </div>  
-              </div> 
-
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> Meatballs, pepper jack cheese and marinara sauce </p>
-              </div>
-              <!-- end row 2 -->
-
-              <hr style="border-top: 1px solid black">
-
-               <!-- row 3 -->
-              <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="14" > <img src="img/sandwich.jpg"></a>
-                 </div>
+                 </div> -->
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Reggie </h5>
                   </div>
@@ -528,37 +489,37 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Chicken breast and pepper jack cheese </p>
+                <p class="menu-desc text-left"> Chicken Breast & Pepper Jack Cheese on Dutch Crunch </p>
               </div>
-              <!-- end row 3 -->
+              <!-- end row 1 -->
 
               <hr style="border-top: 1px solid black">
 
-               <!-- row 4 -->
+               <!-- row 2 -->
               <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="15" > <img src="img/sandwich.jpg"></a>
-                 </div>
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="13" > <img src="img/sandwich.jpg"></a>
+                 </div>  -->            
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Babe </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="item-price">$7.49</h5>
+                    <h5 class="item-price">$8.49</h5>
                   </div>  
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Scrambled eggs, ham and American cheese </p>
+                <p class="menu-desc text-left"> Hotlink w/ BBQ Sauce on Melted Cheddar </p>
               </div>
-              <!-- end row 4 -->
+              <!-- end row 2 -->
 
               <hr style="border-top: 1px solid black">
 
-               <!-- row 5 -->
+               <!-- row 3 -->
               <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="16" > <img src="img/sandwich.jpg"></a>
-                 </div>
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="14" > <img src="img/sandwich.jpg"></a>
+                 </div> -->
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Hanhan </h5>
                   </div>
@@ -568,17 +529,17 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Hot link with BBQ sauce and melted cheddar cheese </p>
+                <p class="menu-desc text-left"> Hotlink w/ BBQ Sauce on Melted Cheddar </p>
               </div>
-              <!-- end row 5 -->
+              <!-- end row 3 -->
 
               <hr style="border-top: 1px solid black">
 
-               <!-- row 6 -->
+               <!-- row 4 -->
               <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="17" > <img src="img/sandwich.jpg"></a>
-                 </div>
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="15" > <img src="img/sandwich.jpg"></a>
+                 </div> -->
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Mercy Me </h5>
                   </div>
@@ -588,7 +549,47 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Chicken breast with marinara sauce and melted provolone cheese </p>
+                <p class="menu-desc text-left"> Chicken Breast w/ Marinara Sauce on Melted Provolone </p>
+              </div>
+              <!-- end row 4 -->
+
+              <hr style="border-top: 1px solid black">
+
+               <!-- row 5 -->
+              <div class="row">
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="16" > <img src="img/sandwich.jpg"></a>
+                 </div> -->
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="menu-item"> S.B.P.D. </h5>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="item-price">$8.49</h5>
+                  </div>  
+              </div> 
+
+              <div class="col-lg-12">
+                <p class="menu-desc text-left"> Chicken Breast w/ BBQ sauce and melted cheddar </p>
+              </div>
+              <!-- end row 5 -->
+
+              <hr style="border-top: 1px solid black">
+
+               <!-- row 6 -->
+              <div class="row">
+ <!--                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="17" > <img src="img/sandwich.jpg"></a>
+                 </div> -->
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="menu-item"> Slickster </h5>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="item-price">$8.49</h5>
+                  </div>  
+              </div> 
+
+              <div class="col-lg-12">
+                <p class="menu-desc text-left"> Hot Turkey, Cranberry Sauce, choice of cheese on sourdough </p>
               </div>
               <!-- end row 6 -->
 
@@ -604,11 +605,11 @@
         
                <!-- row 1 -->
               <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="18" > <img src="img/sandwich.jpg"></a>
-                 </div>
+                 </div> -->
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Slickster </h5>
+                    <h5 class="menu-item"> Capuchino Mustang </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
@@ -616,7 +617,7 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Hot turkey and cranberry sauce  </p>
+                <p class="menu-desc text-left"> Chicken Breast, Buffalo Wing Sauce, Pepper Jack Cheese, and Ranch Dressing</p>
               </div>
               <!-- end row 1 -->
 
@@ -624,11 +625,11 @@
 
                <!-- row 2 -->
               <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="19" > <img src="img/sandwich.jpg"></a>
-                 </div>
+                 </div> -->
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="cap menu-item"> Capuchino Mustang  </h5>
+                    <h5 class="cap menu-item"> S.B.F.D </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
@@ -636,7 +637,7 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Chicken breast with Frank's Buffalo wing sauce, pepper jack cheese and ranch dressing </p>
+                <p class="menu-desc text-left"> Chicken Breast, Honey Mustard, Avocado, melted Pepper Jack on Dutch Crunch</p>
               </div>
               <!-- end row 2 -->
 
@@ -644,11 +645,11 @@
 
                <!-- row 3 -->
               <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="20" > <img src="img/sandwich.jpg"></a>
-                 </div>
+                 </div> -->
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> S.B.F.D </h5>
+                    <h5 class="menu-item"> Reuben </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
@@ -656,7 +657,7 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Chicken breast, honey mustard, avocado and melted pepper jack cheese on Dutch crunch </p>
+                <p class="menu-desc text-left"> Hot Pastrami, Swiss Cheese, Sauerkraut, Thousand Island Dressing</p>
               </div>
               <!-- end row 3 -->
 
@@ -664,11 +665,28 @@
 
                <!-- row 4 -->
               <div class="row">
-                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <a href="img/sandwich-lrg.jpg"  data-title="" data-lightbox="21" > <img src="img/sandwich.jpg"></a>
-                 </div>
+                 </div> -->
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> House Combo </h5>
+                    <h5 class="menu-item text-left"> Fire Bird </h5>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="item-price">$9.49</h5>
+                  </div>  
+              </div> 
+
+              <div class="col-lg-12">
+                <p class="menu-desc text-left"> Turkey, Bacon, Roasted Red Peppers, Cheddar, Jalapeno/Chipotle Sauce </p>
+              </div>
+              <!-- end row 4 -->
+
+              <hr style="border-top: 1px solid black">
+
+               <!-- row 5 -->
+              <div class="row">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="menu-item"> Maui Zaui </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
@@ -676,41 +694,45 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Turkey, Salami, Ham, American Cheese </p>
+                <p class="menu-desc text-left"> Chicken Breast, Teriyaki Sauce, Pineapple, your choice of Cheese </p>
               </div>
-              <!-- end row 4 -->
+              <!-- end row 5 -->
 
               <hr style="border-top: 1px solid black">
 
-               <!-- row 5 -->
-<!--               <div class="row">
-                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 5. Diyana </h5>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="item-price">$10.00</h5>
-                  </div>  
-              </div> 
-
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> Pastrami and swiss cheese on rye </p>
-              </div> -->
-              <!-- end row 5 -->
-
                <!-- row 6 -->
-<!--               <div class="row">
+              <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 6. House Combo</h5>
+                    <h5 class="menu-item"> Cut Right </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="item-price">$10.00</h5>
+                    <h5 class="item-price">$9.49</h5>
                   </div>  
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> Turkey, salami, ham, and American Cheese </p>
-              </div> -->
+                <p class="menu-desc text-left"> Shrimp and Crab Combination, Mayonnaise, Celery </p>
+              </div>
               <!-- end row 6 -->
+
+              <hr style="border-top: 1px solid black">
+
+                             <!-- row 6 -->
+              <div class="row">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="menu-item"> Lettuce Wraps </h5>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="item-price">$8.49</h5>
+                  </div>  
+              </div> 
+
+              <div class="col-lg-12">
+                <p class="menu-desc text-left"> Romaine Lettuce, Choice of Meat and Cheese </p>
+              </div>
+              <!-- end row 6 -->
+
+              <hr style="border-top: 1px solid black">
 
         </div>
       </div>
@@ -745,98 +767,115 @@
 
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style=""> 
           <div class="col-lg-12" style="background-color: white;">
-              <div><h2 id="deli" class="sand" style="color: #0E6845; text-align: left; padding-top: 15px;"> Deli Sandwiches </h2></div>
+              <div>
+                <h2 id="deli" class="sand" style="color: #0E6845; text-align: left; padding-top: 15px;"> Deli Sandwiches </h2>
+                <p style="color: #705446; float: left;"> (With your choice of cheese and bread) </p>
+                <br>
+              </div>
               <hr style="border-top: 5px solid black;">
 
                <!-- row 1 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 23. Turkey </h5>
+                    <h5 class="menu-item"> Turkey </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.49</h5>
-                  </div>  
+                  </div> 
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
-              </div>
+              <hr style="border-top: 1px solid black">
+
+<!--               <div class="col-lg-12">
+                <p class="menu-desc-deli text-left"> With your choice of cheese and bread </p>
+              </div> -->
               <!-- end row 1 -->
+
 
                <!-- row 2 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 24. Roast Beef </h5>
+                    <h5 class="menu-item"> Roast Beef </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.49</h5>
                   </div>  
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
-              </div>
+<!--               <div class="col-lg-12">
+                <p class="menu-desc-deli text-left"> With your choice of cheese and bread </p>
+              </div> -->
               <!-- end row 2 -->
+
+              <hr style="border-top: 1px solid black">
 
                <!-- row 3 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 25. Pastrami </h5>
+                    <h5 class="menu-item"> Pastrami </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.49</h5>
                   </div>  
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
-              </div>
+<!--               <div class="col-lg-12">
+                <p class="menu-desc-deli text-left"> With your choice of cheese and bread </p>
+              </div> -->
               <!-- end row 3 -->
+
+              <hr style="border-top: 1px solid black">
 
                <!-- row 4 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 26. Salami </h5>
+                    <h5 class="menu-item">  Salami </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.49</h5>
                   </div>  
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
-              </div>
+<!--               <div class="col-lg-12">
+                <p class="menu-desc-deli text-left"> With your choice of cheese and bread </p>
+              </div> -->
               <!-- end row 4 -->
+
+              <hr style="border-top: 1px solid black">
 
                <!-- row 5 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 27. Ham  </h5>
+                    <h5 class="menu-item"> Ham </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$8.49</h5>
                   </div>  
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
+<!--               <div class="col-lg-12">
+                <p class="menu-desc-deli text-left"> With your choice of cheese and bread </p>
               </div>
-              <!-- end row 5 -->
+ -->              <!-- end row 5 -->
+
+              <hr style="border-top: 1px solid black">
 
                <!-- row 6 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 28. Chicken Sslad </h5>
+                    <h5 class="menu-item"> Chicken Sslad </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.99</h5>
                   </div>  
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
-              </div>
+<!--               <div class="col-lg-12">
+                <p class="menu-desc-deli text-left"> With your choice of cheese and bread </p>
+              </div> -->
               <!-- end row 6 -->
+
+              <hr style="border-top: 1px solid black">
 
 
           </div>
@@ -846,37 +885,43 @@
         <div class="col-lg-12" style="background-color: white;">
 
               <h2 class="title" style="color: green; text-align: left; padding-top: 15px;"> Specialty Sandwiches  </h2>
+              <p class="tuna"> (With your choice of cheese and bread) </p>
+              <br class="tuna-break">
               <hr class="bar" style="border-top: 5px solid black;">
 
                <!-- row 1 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 29. Tuna Salad </h5>
+                    <h5 class="menu-item"> Tuna Salad </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.49</h5>
                   </div>  
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
+<!--               <div class="col-lg-12">
+                <p class="menu-desc-deli text-left"> With your choice of cheese and bread </p>
               </div>
-              <!-- end row 1 -->
+ -->              <!-- end row 1 -->
+
+              <hr style="border-top: 1px solid black">
 
                <!-- row 2 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 30. Mortadella  </h5>
+                    <h5 class="menu-item"> Mortadella  </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.49</h5>
                   </div>  
               </div> 
 
-              <div class="col-lg-12">
-                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
-              </div>
+<!--               <div class="col-lg-12">
+                <p class="menu-desc-deli text-left"> With your choice of cheese and bread </p>
+              </div> -->
               <!-- end row 2 -->
+
+              <hr style="border-top: 1px solid black">
 
                <!-- row 3 -->
 <!--               <div class="row">
@@ -970,13 +1015,16 @@
 
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style=""> 
           <div class="col-lg-12" style="background-color: white;">
-              <div><h2 id="salads" class="sand" style="color: #0E6845; text-align: left; padding-top: 15px;"> Homemade Salads </h2></div>
+              <div><h2 id="salads" class="sand" style="color: #0E6845; text-align: left; padding-top: 15px;"> Homemade Salads </h2>
+              <p style="color: #705446; float: left;"> (Dressings: Ranch, Italian, 1000 Island) </p>
+              <br>
+              </div>
               <hr style="border-top: 5px solid black;">
 
                <!-- row 1 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="mac menu-item"> 1/2 Pint Macaroni Salad </h5>
+                    <h5 class="mac menu-item"> 1/2 Pint Macaroni </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$3.50</h5>
@@ -991,7 +1039,7 @@
                <!-- row 2 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> 1/2 Pint Potato Salad </h5>
+                    <h5 class="menu-item"> 1/2 Pint Potato </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$3.50</h5>
@@ -1036,7 +1084,7 @@
                <!-- row 5 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Chicken Breast Salad </h5>
+                    <h5 class="menu-item"> Chicken Breast </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.99</h5>
@@ -1051,7 +1099,7 @@
                <!-- row 6 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Albacore Tuna Salad </h5>
+                    <h5 class="menu-item"> Albacore Tuna </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$7.49</h5>
@@ -1063,6 +1111,21 @@
               </div>
               <!-- end row 6 -->
 
+               <!-- row 7 -->
+              <div class="row">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="menu-item"> Chicken Salad </h5>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h5 class="item-price">$7.49</h5>
+                  </div>  
+              </div> 
+
+              <div class="col-lg-12">
+                <p class="menu-desc text-left">  </p>
+              </div>
+              <!-- end row 7 -->
+
 
           </div>
       </div>
@@ -1071,10 +1134,11 @@
         <div class="col-lg-12" style="background-color: white;">
 
               <h2 class="title" style="color: green; text-align: left; padding-top: 15px;"> Specialty Sandwiches  </h2>
+              <br class="tuna-break">
               <hr class="bar" style="border-top: 5px solid black;">
 
                <!-- row 1 -->
-              <div class="row">
+<!--               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="menu-item"> Chicken Salad Salad </h5>
                   </div>
@@ -1084,8 +1148,8 @@
               </div> 
 
               <div class="col-lg-12">
-                <p class="menu-desc text-left"> <!-- With your choice of cheese and bread --> </p>
-              </div>
+                <p class="menu-desc text-left"> With your choice of cheese and bread </p>
+              </div> -->
               <!-- end row 1 -->
 
                <!-- row 2 -->
@@ -1170,7 +1234,7 @@
 
 <!-- *****Beverages/Chips******-->
 <!-- *****Salads****** -->
-<div class="row text-center" style="background-color: white;">   
+<div class="row text-center" style="background-color: white; border-radius: 5px;">   
       
 <!--       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
         <div class="sidebar" style="background-color: gray;">
@@ -1308,7 +1372,7 @@
           </div>
       </div>
 
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style=""> 
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"> 
         <div class="col-lg-12" style="background-color: white;">
 
               <h2 class="title" style="color: green; text-align: left; padding-top: 15px;"> Specialty Sandwiches  </h2>
@@ -1362,7 +1426,7 @@
                <!-- row 4 -->
               <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h5 class="menu-item"> Martinelli Apple Juice </h5>
+                    <h5 class="menu-item"> Apple Juice </h5>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h5 class="item-price">$2.00</h5>
@@ -1412,8 +1476,12 @@
 
 <section id="contact">
   <div class="row">
-    <div class="col-lg-12 col-lg-push-4 col-md-12 col-md-push-4 col-sm-12 col-sm-push-3 col-xs-12 col-xs-push-3">
-      <iframe height='463' allowTransparency='true' frameborder='0' scrolling='no' style='width:100%;border:none'  src='//www.formget.com/app/embed/form/Q7hm-283939/i?w=300'>Your Contact </iframe>
+    <div class="col-lg-6">
+      <iframe height='463' allowTransparency='true' frameborder='0' scrolling='no' style='width:100%;border:none'  src='//www.formget.com/app/embed/form/Q7hm-283939/i?w=325'>Your Contact </iframe>
+    </div>
+
+    <div class="col-lg-6 col-lg-pull-1">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3999.5842829756916!2d-122.41687945714452!3d37.62952021888087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f79dac4fa3259%3A0xc8ff07a100979236!2sMr.+Pickle&#39;s+Sandwich+Shop!5e0!3m2!1sen!2sus!4v1519002833089" width="600" height="463" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div> 
 </section>
