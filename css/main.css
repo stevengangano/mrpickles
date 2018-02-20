@@ -7,6 +7,25 @@ body {
   background: linear-gradient(to bottom, green 0%, #50AE54 25%);
 }
 
+.fa.fa-facebook,
+.fa.fa-twitter,
+.fa.fa-instagram {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+  color: black;
+  margin: 0 25px;
+  font-size: 200%;
+}
+ 
+.fa.fa-twitter {
+  color: #2AA3EF;
+}
+
+.fa.fa-facebook {
+  color: #4468B0;
+}
+
 .carousel-caption .caption {
   color: pink;
   font-family: 'Abril Fatface', cursive;
@@ -20,10 +39,9 @@ body {
   background: red;
   margin: 0 auto;
   margin-top: 10px;
-  height: 50px;
+  height: 40px;
   width: 150px;
-  padding: 0;
-  line-height: 50px;
+  line-height: 40px;
   border-radius: 5px;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
@@ -233,18 +251,25 @@ span {
   display: none;
 }
 
+/*Media Queries for bootstrap*/
 @media (max-width: 405px) {
   .cap {
     font-size: 13px;
   }
-  .mac {
-    font-size: 13px;
-  }
 }
-/*Media Queries for bootstrap*/
+
+.slide-1,
+.slide-2,
+.slide-3 {
+  font-size: 175%;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 767px) {
+  .formget {
+    position: relative;
+    left: 22px;
+  }
     .title,
     .bar {
       display: none;
@@ -252,6 +277,12 @@ span {
     .mrpickles {
       display: none;
     }
+    .slide-1,
+    .slide-2,
+    .slide-3 {
+      font-size: 130%;
+    }
+
    .dropdown-menu,
    .dropdown {
     float: right;
@@ -274,15 +305,17 @@ span {
   .bread {
     padding-top: 15px;
   }
-  .title,
-  .bar {
-    display: none;
+  .map {
+    bottom: 45px;
   }
 }
 
 @media (min-width: 767px) {
   .sidebar {
     padding-top: 15px;
+  }
+  .nav-page {
+    font-size: 80%;
   }
   .links {
     position: relative;
@@ -302,8 +335,8 @@ span {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .sidebar {
-    padding-top: 35px;
+  .sidebar {
+    bottom: 17px;
   }
   .social-img {
   height: 60px;
@@ -312,14 +345,20 @@ span {
   .maxine {
     visibility: : hidden;
   }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .sidebar {
-    padding-top: 50px;
+     bottom: 15px;
   }
   div.mainDiv.row.text-center {
     margin-top: 25px;
+  }
+  .slide-1 {
+    position: relative;
+    bottom: 470px;
+    left: 155px;
   }
 }
